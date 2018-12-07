@@ -28,7 +28,6 @@ int main(int argc, char ** argv)
 	double alpha;
 	double r;
 	double sigma;
-	double x_next
 	float sigma;
 	
 	point=drand48();
