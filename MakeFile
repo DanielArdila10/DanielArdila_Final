@@ -3,6 +3,6 @@ FILES=cadena1.dat cadena2.dat cadena3.dat cadena4.dat cadena5.dat cadena6.dat ca
 PLOTS:{FILES}
 	python3 archivo lectura
 	
-{FILES}: punto2.c
-	gcc punt2.c -fopenmp -lm -o punto2
-	./punto2
+{FILES}: punto1.c
+	gcc punt1.c -fopenmp -lm -o punto1
+	./punto1
